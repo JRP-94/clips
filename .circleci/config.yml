@@ -5,7 +5,7 @@ jobs:
 # build docker image
   build:
     docker:
-      - image: image: alpine:3.15
+      - image: alpine:3.15
     steps:
       - run:
           name: "Build Docker Image"
